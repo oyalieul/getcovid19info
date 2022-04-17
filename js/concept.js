@@ -26,7 +26,8 @@ document.getElementById('form')
 function start(){
     input=document.getElementById('input').value;
     inputTrim=input.trim();
-    wait.innerHTML=`<div><span class="loader"><span class="loader-inner"></span></span><br><br><br><br><br><div style="color:white; font-size:120%" class="animate__animated animate__flash animate__infinite animate__slower">Please wait ...</div></div>`;
+    wait.innerHTML=`<div><span class="loader"><span class="loader-inner"></span></span></div>
+    <div style="color:white; font-size:110%; margin-top:10px;" class="animate__animated animate__flash animate__infinite animate__slower">Searching ...</div>`;
 
     // removing the result section 
     searchRes.innerHTML=""; 
@@ -100,6 +101,7 @@ function nextStep (y){
 function start2(){
     input=document.getElementById('input').value;
     inputTrim=input.trim();
+    display2.innerHTML= `<div class="search3"><div style="color:black; font-size:110%;" class="animate__animated animate__flash animate__infinite animate__slower">Searching ...</div>`;
     connectAPI2(inputTrim);
     
 }

@@ -72,6 +72,16 @@
 .morebtn:hover{
     background-image: linear-gradient(to bottom right,#00d2ff, #3a7bd5);
 }
+
+.search3{
+  
+  /* background-color: black; */
+  border: none;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-top: 100px;
+}
 .push{
     border-radius: 100px;
     width: 150px;
