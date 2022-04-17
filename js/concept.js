@@ -36,10 +36,11 @@ function start(){
     wholeDiv.setAttribute("style", "")
     connectAPI(inputTrim);
     // clearing window jump
-    window.location.hash="";
+    window.location.hash="top";
 }
 function jump(){
     // jump window to search 
+    window.location.hash="";
     window.location.hash="top"; 
 }
 
